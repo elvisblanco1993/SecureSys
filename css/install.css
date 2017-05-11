@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    background-color: #eee;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form > input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    outline: hidden;
+}
+
+form > input:focus {
+    border: 1px solid #3DAEE9;
+}
+form > input:hover {
+    cursor: text;
+}
+
+input[type="submit"] {
+    width: 100px;
+    background-color: #fff;
+    outline: hidden;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: #FFF;
+}
+
+.adduser {
+    text-align: center;
+    color: #4caf50;
+    margin: auto;
+}
